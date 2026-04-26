@@ -1,0 +1,5 @@
+.character-card { max-width: 600px; margin: 1rem auto; padding: 1.5rem; background: var(--bg-secondary); border-radius: 8px; border: 1px solid var(--border); }
+.character-card .subtitle { margin-bottom: 0.5rem; }
+.character-card .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin: 1rem 0; padding: 1rem; background: var(--bg-tertiary); border-radius: 4px; }
+.character-card .section { margin-top: 1rem; }
+.character-card .section h3 { color: var(--accent); margin-bottom: 0.5rem; }
